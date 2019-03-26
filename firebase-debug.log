@@ -1,0 +1,30 @@
+[debug] [2019-03-26T03:40:13.180Z] ----------------------------------------------------------------------
+[debug] [2019-03-26T03:40:13.190Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\saputra\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy --only hosting:staging
+[debug] [2019-03-26T03:40:13.190Z] CLI Version:   6.5.0
+[debug] [2019-03-26T03:40:13.190Z] Platform:      win32
+[debug] [2019-03-26T03:40:13.190Z] Node Version:  v10.15.2
+[debug] [2019-03-26T03:40:13.192Z] Time:          Tue Mar 26 2019 10:40:13 GMT+0700 (Indochina Time)
+[debug] [2019-03-26T03:40:13.192Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-03-26T03:40:13.205Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-03-26T03:40:13.206Z] > authorizing via signed-in user
+[debug] [2019-03-26T03:40:13.206Z] [iam] checking project myhelloworld-535b9 for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2019-03-26T03:40:13.208Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/myhelloworld-535b9:testIamPermissions  
+
+[debug] [2019-03-26T03:40:14.437Z] <<< HTTP RESPONSE 200
+[debug] [2019-03-26T03:40:14.445Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/myhelloworld-535b9  
+ 
+[debug] [2019-03-26T03:40:14.796Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Deploying to 'myhelloworld-535b9'...
+[info] 
+[info] i  deploying hosting
+[info] 
+[info] +  Deploy complete!
+[info] 
+[info] Project Console: https://console.firebase.google.com/project/myhelloworld-535b9/overview
+[debug] [2019-03-26T03:40:14.894Z] TypeError: Cannot read property 'deploys' of undefined
+    at C:\Users\saputra\AppData\Roaming\npm\node_modules\firebase-tools\lib\deploy\index.js:88:36
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+[error] 
+[error] Error: An unexpected error has occurred.
