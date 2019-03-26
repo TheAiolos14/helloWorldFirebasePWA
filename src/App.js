@@ -5,22 +5,28 @@ import './App.css';
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
-      </div>
+        <body>
+
+        <div className="App">
+          <div>
+            <h1 className="vertical-container"> Welcome to my First PWA App !</h1>
+          </div>
+        </div>
+
+        <script src="https://www.gstatic.com/firebasejs/5.9.1/firebase.js"></script>
+        <script>
+          var config = {
+          apiKey: "AIzaSyA8kqxYodt9V2ZJfJsppoZgLV_mpLOH1gM",
+          authDomain: "myhelloworld-535b9.firebaseapp.com",
+          databaseURL: "https://myhelloworld-535b9.firebaseio.com",
+          projectId: "myhelloworld-535b9",
+          storageBucket: "myhelloworld-535b9.appspot.com",
+          messagingSenderId: "392606947120"
+        };
+          firebase.initializeApp(config);
+        </script>
+        </body>
+
     );
   }
 }
